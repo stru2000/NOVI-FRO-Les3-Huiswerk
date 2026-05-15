@@ -62,9 +62,23 @@ nav{
     border: 2px dashed blue;
 }
 
+.novi-logo {
+    display: flex;
+    gap: 16px;
+    border: 2px dashed yellow;
+
+}
+
 ul {
     list-style: none;
+    border: 2px dashed cadetblue;
     }
+
+li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 /* 3.2 Header */
 
