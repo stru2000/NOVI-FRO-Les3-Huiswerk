@@ -1,0 +1,92 @@
+.navbar-one{
+    display: flex;
+}
+
+.navbar-one ul{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.navbar-one li{
+    list-style: none;
+}
+
+.navbar-two{
+    display: flex;
+}
+
+.navbar-two ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    gap: 40px;
+}
+
+.navbar-two li{
+    list-style: none;
+}
+
+.navbar-logo{
+    display: flex;
+    gap: 16px;
+}
+
+.navbar-three{
+    display: flex;
+}
+
+.navbar-three ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    gap: 40px;
+}
+
+.navbar-three li{
+    list-style: none;
+}
+
+.navbar-four{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-four > .ul-nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    gap: 40px;
+}
+
+.navbar-four > .ul-buttons{
+    display: flex;
+    gap: 16px;
+}
+
+.navbar-four li{
+    list-style: none;
+}
+
+.navbar-five {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-five > .ul-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 40px;
+}
+
+.navbar-five > .ul-buttons{
+    display: flex;
+    gap: 16px;
+}
+
+.navbar-five li{
+    list-style: none;
+}
