@@ -1,0 +1,83 @@
+/* ==========================================================================
+   INHOUDSOPGAVE / INDEX
+   ==========================================================================
+   1. GLOBAL
+   2. TYPOGRAFIE
+   3. AREAS
+      3.1 Navigation
+      3.2 Header
+      3.3 Main
+      3.4 Footer
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. GLOBAL
+   -------------------------------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+
+
+}
+
+.main-content{
+    flex-grow: 20;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   2. TYPOGRAFIE
+   -------------------------------------------------------------------------- */
+
+
+
+
+
+/* --------------------------------------------------------------------------
+   3. AREAS
+   -------------------------------------------------------------------------- */
+
+/* 3.1 Navigation */
+
+aside {
+    display: flex;
+    border: 2px dashed yellow;
+    min-width: 250px;
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border: 2px dashed blue;
+}
+
+ul {
+    list-style: none;
+    }
+
+/* 3.2 Header */
+
+header{
+    border: 2px dashed saddlebrown;
+}
+
+/* 3.3 Main */
+
+main{
+    border: 2px dashed coral;
+}
+/* 3.4 Footer */
+footer {
+    border: 2px dashed darkcyan;
+}
