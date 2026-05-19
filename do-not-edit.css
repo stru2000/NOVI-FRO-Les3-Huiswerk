@@ -81,6 +81,7 @@ button {
 .button-primary {
     border: 2px solid #383838;
     background-color: white;
+    color: black;
 }
 
 .button-secondary {
@@ -100,10 +101,11 @@ button {
 /* --------------- 3.4 Cards ------------------------- */
 
 article {
-    border: 1px solid #e0e0e0;
+    border: 2px solid #bdbdbd;
     border-radius: 6px;
     padding: 12px;
-    box-shadow: rgba(0, 0, 0, 0.14) 0 3px 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.20) 0 4px 12px;
 }
 
 article h2 {

@@ -20,15 +20,23 @@
 
 body{
     display: flex;
-    min-height: 100vh;
-
+    height: 100vh;
+    /* Override voor de dark mode in mijn browser*/
+    color-scheme: dark;
 
 }
 
 .main-content{
-    flex-grow: 20;
+    flex-grow: 5;
+    flex-basis: 900px;
     overflow-y: auto;
-    height: 100vh;
+    border: 2px solid red;
+    flex-shrink: 1;
+    min-width: 0;
+
+    /* Override voor de dark mode in mijn browser */
+    /* zelfde kleur als achtergrond uit do-not-edit.css */
+    background-color: #f3f3f3;
 }
 
 
@@ -58,6 +66,7 @@ aside {
 nav{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     flex-grow: 1;
     border: 2px dashed blue;
 }
@@ -65,33 +74,110 @@ nav{
 .novi-logo {
     display: flex;
     gap: 16px;
-    border: 2px dashed yellow;
+    border: 2px dashed darkgreen;
 
 }
 
 ul {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
     list-style: none;
-    border: 2px dashed cadetblue;
+    border: 2px dashed brown;
+    row-gap: 20px;
     }
 
-li{
+a{
+    border: 2px blue dashed;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+    gap: 16px;
 }
+
+.nav-wrapper{
+    display: flex;
+    flex-direction: column;
+    border: 8px solid yellow;
+}
+
+.nav-buttons{
+    border: 2px dashed deeppink;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px 0;
+}
+
+/* override voor dark mode*/
+.buttons{
+    color: black;
+}
+
+
 
 /* 3.2 Header */
 
 header{
     border: 2px dashed saddlebrown;
+    background-image: url("../assets/placeholder-image.svg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    padding: 100px 0;
+    gap: 16px;
 }
+
+
 
 /* 3.3 Main */
 
 main{
     border: 2px dashed coral;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px;
+    gap: 30px;
 }
+
+article{
+    max-width: 260px;
+    display: flex;
+    flex-basis: 260px;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.card-image {
+    width: 100%;
+    height: 180px;
+    background-color: #dcdcdc;
+    border-radius: 6px;
+}
+
+article img{
+    width: 16px;
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 /* 3.4 Footer */
 footer {
     border: 2px dashed darkcyan;
+    background-color: #383838;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
